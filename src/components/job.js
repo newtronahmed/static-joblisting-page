@@ -8,6 +8,7 @@ border-radius:3px;
 padding:1rem;
 box-shadow: 0  4px 4px rgba(0, 0, 0, 0.2);
 margin:1.5rem;
+background:#fff;
 border-left : ${({featured})=>{
 	return featured ? '5px solid hsl(180, 29%, 50%)' : '0px';
 }} ;

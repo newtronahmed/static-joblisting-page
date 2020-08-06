@@ -8,6 +8,9 @@
 outline: none !important;
 box-shadow: none !important;
 }
+.filterbtn {
+    background: black !important;
+}
 #crossbtn {
     background-color:  hsl(180, 29%, 50%);
     color:white;

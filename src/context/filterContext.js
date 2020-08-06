@@ -17,10 +17,9 @@ class FilterContextProvider extends React.Component {
 	})
   }
   removeFilter=(filterToRemove)=>{
-        console.log(filterToRemove)
-        this.setState({
-          filter: this.state.filter.filter(x=>{ return x !==filterToRemove})
-        })
+      this.setState({
+        filter: this.state.filter.filter(x=>{ return x !== filterToRemove})
+      })
         
   }
   render() {
