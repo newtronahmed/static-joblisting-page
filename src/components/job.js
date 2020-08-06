@@ -21,17 +21,19 @@ const NewBadge = styled.div`
 background-color: hsl(180, 29%, 50%);
 color:white;
 border-radius:15px;
-padding:1px 7px;
+padding:2px 5px;
 font-weight:bold;
 margin:0 5px;
+text-align:center;
 `
 const FeaturedBadge = styled.div`
 background-color:hsl(180, 14%, 20%);
 color:white;
 border-radius:15px;
-padding:1px 7px;
+padding:2px 5px;
 font-weight:bold;
 margin:0 5px;
+text-align:center;
 
 `
 const Description = styled.div`
