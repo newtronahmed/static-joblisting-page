@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+}
+.jobList {
+	margin-top:50px;
+}
+.btn:focus {
+outline: none !important;
+box-shadow: none !important;
+}
+#crossbtn {
+    background-color:  hsl(180, 29%, 50%);
+    color:white;
+}
+#crossbtn:hover {
+background-color: hsl(180, 14%, 20%);
+
+}
+#filterbtn {
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+}
+.image {
+	background: hsl(180, 29%, 50%);
+	background-image: url('/images/bg-header-desktop.svg');
+}
+.avatar {
+height: 5rem;
+width:5rem;
+border-radius:50%;
+background-size:cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filterContainer {
+	display:flex;
+	background-color:#fff;
+	padding:15px 20px;
+	z-index:10;
+	border-radius:3;
+	position:relative;
+	bottom:40px;
+    flex-wrap: wrap;
 }
+@media only screen and (min-width: 600px) {
+    .job {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    }
+    .insideJob {
+    	display: flex;
+    }
+
+
 }
+@media only screen and (max-width: 600px) {
+    .hr {
+    	border: 0.2px solid rgba(0,0,0,0.1);
+    	margin:10px 0px;
+    }
+    .avatar {
+        width: 3rem;
+        height: 3rem;
+        position:absolute;
+        bottom:80px;
+    }
+    .pad {
+        padding-top: 20px;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
