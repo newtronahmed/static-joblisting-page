@@ -21,7 +21,7 @@ const NewBadge = styled.div`
 background-color: hsl(180, 29%, 50%);
 color:white;
 border-radius:15px;
-padding:3px 3px;
+padding:2px 5px;
 font-weight:bold;
 margin:0 5px;
 text-align:center;
